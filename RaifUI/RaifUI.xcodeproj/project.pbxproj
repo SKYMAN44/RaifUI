@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639486852668076E00792DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486842668076E00792DA7 /* AppDelegate.swift */; };
+		639486872668076E00792DA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486862668076E00792DA7 /* SceneDelegate.swift */; };
+		639486892668076E00792DA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486882668076E00792DA7 /* ViewController.swift */; };
+		6394868C2668076E00792DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6394868A2668076E00792DA7 /* Main.storyboard */; };
+		6394868E2668077000792DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6394868D2668077000792DA7 /* Assets.xcassets */; };
+		639486912668077000792DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6394868F2668077000792DA7 /* LaunchScreen.storyboard */; };
+		6394869C2668077000792DA7 /* RaifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394869B2668077000792DA7 /* RaifUITests.swift */; };
+		639486A72668077000792DA7 /* RaifUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486A62668077000792DA7 /* RaifUIUITests.swift */; };
+		639486B82668093800792DA7 /* DealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486B72668093800792DA7 /* DealTableViewController.swift */; };
+		639486C026680A1B00792DA7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486BF26680A1B00792DA7 /* Model.swift */; };
+		639486C626680A3C00792DA7 /* PostgresClientKit in Frameworks */ = {isa = PBXBuildFile; productRef = 639486C526680A3C00792DA7 /* PostgresClientKit */; };
+		639486CB26680A6E00792DA7 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486CA26680A6E00792DA7 /* Environment.swift */; };
+		639486D026680AA700792DA7 /* Environment.json in Resources */ = {isa = PBXBuildFile; fileRef = 639486CF26680AA700792DA7 /* Environment.json */; };
+		639486DC266818FD00792DA7 /* LookDealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486DB266818FD00792DA7 /* LookDealTableViewController.swift */; };
+		639486FE26682D5B00792DA7 /* AddDealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639486FD26682D5B00792DA7 /* AddDealTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		639486982668077000792DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639486792668076E00792DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639486802668076E00792DA7;
+			remoteInfo = RaifUI;
+		};
+		639486A32668077000792DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639486792668076E00792DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639486802668076E00792DA7;
+			remoteInfo = RaifUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		639486812668076E00792DA7 /* RaifUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaifUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639486842668076E00792DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		639486862668076E00792DA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		639486882668076E00792DA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6394868B2668076E00792DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6394868D2668077000792DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639486902668077000792DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639486922668077000792DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639486972668077000792DA7 /* RaifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6394869B2668077000792DA7 /* RaifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaifUITests.swift; sourceTree = "<group>"; };
+		6394869D2668077000792DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639486A22668077000792DA7 /* RaifUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaifUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639486A62668077000792DA7 /* RaifUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaifUIUITests.swift; sourceTree = "<group>"; };
+		639486A82668077000792DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639486B72668093800792DA7 /* DealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealTableViewController.swift; sourceTree = "<group>"; };
+		639486BF26680A1B00792DA7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		639486CA26680A6E00792DA7 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		639486CF26680AA700792DA7 /* Environment.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Environment.json; sourceTree = "<group>"; };
+		639486DB266818FD00792DA7 /* LookDealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookDealTableViewController.swift; sourceTree = "<group>"; };
+		639486FD26682D5B00792DA7 /* AddDealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDealTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6394867E2668076E00792DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639486C626680A3C00792DA7 /* PostgresClientKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639486942668077000792DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6394869F2668077000792DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639486782668076E00792DA7 = {
+			isa = PBXGroup;
+			children = (
+				639486832668076E00792DA7 /* RaifUI */,
+				6394869A2668077000792DA7 /* RaifUITests */,
+				639486A52668077000792DA7 /* RaifUIUITests */,
+				639486822668076E00792DA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639486822668076E00792DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639486812668076E00792DA7 /* RaifUI.app */,
+				639486972668077000792DA7 /* RaifUITests.xctest */,
+				639486A22668077000792DA7 /* RaifUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639486832668076E00792DA7 /* RaifUI */ = {
+			isa = PBXGroup;
+			children = (
+				639486CF26680AA700792DA7 /* Environment.json */,
+				639486842668076E00792DA7 /* AppDelegate.swift */,
+				639486862668076E00792DA7 /* SceneDelegate.swift */,
+				639486882668076E00792DA7 /* ViewController.swift */,
+				639486B72668093800792DA7 /* DealTableViewController.swift */,
+				639486DB266818FD00792DA7 /* LookDealTableViewController.swift */,
+				639486FD26682D5B00792DA7 /* AddDealTableViewController.swift */,
+				639486BF26680A1B00792DA7 /* Model.swift */,
+				639486CA26680A6E00792DA7 /* Environment.swift */,
+				6394868A2668076E00792DA7 /* Main.storyboard */,
+				6394868D2668077000792DA7 /* Assets.xcassets */,
+				6394868F2668077000792DA7 /* LaunchScreen.storyboard */,
+				639486922668077000792DA7 /* Info.plist */,
+			);
+			path = RaifUI;
+			sourceTree = "<group>";
+		};
+		6394869A2668077000792DA7 /* RaifUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6394869B2668077000792DA7 /* RaifUITests.swift */,
+				6394869D2668077000792DA7 /* Info.plist */,
+			);
+			path = RaifUITests;
+			sourceTree = "<group>";
+		};
+		639486A52668077000792DA7 /* RaifUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				639486A62668077000792DA7 /* RaifUIUITests.swift */,
+				639486A82668077000792DA7 /* Info.plist */,
+			);
+			path = RaifUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639486802668076E00792DA7 /* RaifUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639486AB2668077000792DA7 /* Build configuration list for PBXNativeTarget "RaifUI" */;
+			buildPhases = (
+				6394867D2668076E00792DA7 /* Sources */,
+				6394867E2668076E00792DA7 /* Frameworks */,
+				6394867F2668076E00792DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaifUI;
+			packageProductDependencies = (
+				639486C526680A3C00792DA7 /* PostgresClientKit */,
+			);
+			productName = RaifUI;
+			productReference = 639486812668076E00792DA7 /* RaifUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639486962668077000792DA7 /* RaifUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639486AE2668077000792DA7 /* Build configuration list for PBXNativeTarget "RaifUITests" */;
+			buildPhases = (
+				639486932668077000792DA7 /* Sources */,
+				639486942668077000792DA7 /* Frameworks */,
+				639486952668077000792DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639486992668077000792DA7 /* PBXTargetDependency */,
+			);
+			name = RaifUITests;
+			productName = RaifUITests;
+			productReference = 639486972668077000792DA7 /* RaifUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		639486A12668077000792DA7 /* RaifUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639486B12668077000792DA7 /* Build configuration list for PBXNativeTarget "RaifUIUITests" */;
+			buildPhases = (
+				6394869E2668077000792DA7 /* Sources */,
+				6394869F2668077000792DA7 /* Frameworks */,
+				639486A02668077000792DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639486A42668077000792DA7 /* PBXTargetDependency */,
+			);
+			name = RaifUIUITests;
+			productName = RaifUIUITests;
+			productReference = 639486A22668077000792DA7 /* RaifUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639486792668076E00792DA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					639486802668076E00792DA7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					639486962668077000792DA7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 639486802668076E00792DA7;
+					};
+					639486A12668077000792DA7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 639486802668076E00792DA7;
+					};
+				};
+			};
+			buildConfigurationList = 6394867C2668076E00792DA7 /* Build configuration list for PBXProject "RaifUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639486782668076E00792DA7;
+			packageReferences = (
+				639486C426680A3C00792DA7 /* XCRemoteSwiftPackageReference "PostgresClientKit" */,
+			);
+			productRefGroup = 639486822668076E00792DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639486802668076E00792DA7 /* RaifUI */,
+				639486962668077000792DA7 /* RaifUITests */,
+				639486A12668077000792DA7 /* RaifUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6394867F2668076E00792DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639486912668077000792DA7 /* LaunchScreen.storyboard in Resources */,
+				639486D026680AA700792DA7 /* Environment.json in Resources */,
+				6394868E2668077000792DA7 /* Assets.xcassets in Resources */,
+				6394868C2668076E00792DA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639486952668077000792DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639486A02668077000792DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6394867D2668076E00792DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639486C026680A1B00792DA7 /* Model.swift in Sources */,
+				639486CB26680A6E00792DA7 /* Environment.swift in Sources */,
+				639486FE26682D5B00792DA7 /* AddDealTableViewController.swift in Sources */,
+				639486892668076E00792DA7 /* ViewController.swift in Sources */,
+				639486B82668093800792DA7 /* DealTableViewController.swift in Sources */,
+				639486852668076E00792DA7 /* AppDelegate.swift in Sources */,
+				639486872668076E00792DA7 /* SceneDelegate.swift in Sources */,
+				639486DC266818FD00792DA7 /* LookDealTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639486932668077000792DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6394869C2668077000792DA7 /* RaifUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6394869E2668077000792DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639486A72668077000792DA7 /* RaifUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639486992668077000792DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639486802668076E00792DA7 /* RaifUI */;
+			targetProxy = 639486982668077000792DA7 /* PBXContainerItemProxy */;
+		};
+		639486A42668077000792DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639486802668076E00792DA7 /* RaifUI */;
+			targetProxy = 639486A32668077000792DA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6394868A2668076E00792DA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6394868B2668076E00792DA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6394868F2668077000792DA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639486902668077000792DA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639486A92668077000792DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639486AA2668077000792DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639486AC2668077000792DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QZL932B66;
+				INFOPLIST_FILE = RaifUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = skymanapps.RaifUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639486AD2668077000792DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QZL932B66;
+				INFOPLIST_FILE = RaifUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = skymanapps.RaifUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		639486AF2668077000792DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QZL932B66;
+				INFOPLIST_FILE = RaifUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = skymanapps.RaifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaifUI.app/RaifUI";
+			};
+			name = Debug;
+		};
+		639486B02668077000792DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QZL932B66;
+				INFOPLIST_FILE = RaifUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = skymanapps.RaifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaifUI.app/RaifUI";
+			};
+			name = Release;
+		};
+		639486B22668077000792DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QZL932B66;
+				INFOPLIST_FILE = RaifUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = skymanapps.RaifUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaifUI;
+			};
+			name = Debug;
+		};
+		639486B32668077000792DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QZL932B66;
+				INFOPLIST_FILE = RaifUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = skymanapps.RaifUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaifUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6394867C2668076E00792DA7 /* Build configuration list for PBXProject "RaifUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639486A92668077000792DA7 /* Debug */,
+				639486AA2668077000792DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639486AB2668077000792DA7 /* Build configuration list for PBXNativeTarget "RaifUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639486AC2668077000792DA7 /* Debug */,
+				639486AD2668077000792DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639486AE2668077000792DA7 /* Build configuration list for PBXNativeTarget "RaifUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639486AF2668077000792DA7 /* Debug */,
+				639486B02668077000792DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639486B12668077000792DA7 /* Build configuration list for PBXNativeTarget "RaifUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639486B22668077000792DA7 /* Debug */,
+				639486B32668077000792DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		639486C426680A3C00792DA7 /* XCRemoteSwiftPackageReference "PostgresClientKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/codewinsdotcom/PostgresClientKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		639486C526680A3C00792DA7 /* PostgresClientKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 639486C426680A3C00792DA7 /* XCRemoteSwiftPackageReference "PostgresClientKit" */;
+			productName = PostgresClientKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 639486792668076E00792DA7 /* Project object */;
+}

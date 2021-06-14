@@ -1,0 +1,7 @@
+{
+    "host": "130.193.49.66",
+    "port": 5432,
+    "ssl": false,
+    "database": "raif"
+}
+
